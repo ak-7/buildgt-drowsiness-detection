@@ -1,7 +1,7 @@
 # buildgt-drowsiness-detection
-This project was inspired by hearings of more than a few accidents due to fatigued drivers. 
-This project uses a raspberry pi based drowsiness detection system that uses the eye detect ratio
+This was inspired by the increasing number of accidents caused due to fatigued drivers, especially truck drivers. Any long distance drivers is at the risk of falling asleep behind the wheel.
 
+Our module detects if eyes have been closed for a "long" period of time and then evoke the speaker module to emit a wake up call ("WAKE UP SLEEPYHEAD"). The camera moves along with your face position.
 
 
 References:
