@@ -44,10 +44,9 @@ def rotateDegree(boxX, boxWidth, width = 450):
 
     difference = (width/float(2)) - (boxX + boxWidth/float(2))
     # print(difference)
-    #if (-10 < difference < 10):
-    #    return 0
-    if (difference==0):
-    	return 0
+    if (-10 < difference < 10):
+        return 0
+
     return np.sign(difference)
     # if difference > 0:
     #     return -1 # L
